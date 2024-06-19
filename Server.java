@@ -33,7 +33,7 @@ public class Server{
                 //create object printer, of class PrinterStream
                 // printer accept getOutputStream from port 9999 
             
-                printer.println("A dollar for a blind man?");
+                printer.println("getOutputStream from port 9999");
                 Client clientThread = new Client(clientSocket);
                 clients.add(clientThread);
 
