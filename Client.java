@@ -42,7 +42,7 @@ public class Client implements Runnable{
             client.close();
 
         }catch (IOException e) {
-            System.err.println("ahmagh jann");
+            System.err.println("Something gone wrong");
         }
         System.out.println("Closing");
     }
